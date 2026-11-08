@@ -1,47 +1,41 @@
 # Winding Spirals 🌀
 
-This repository contains two Python Turtle graphics projects that create winding spiral patterns. Both use the same movement and turning angle, but the second version introduces colour to make the design more visually interesting.
+A collection of four Python Turtle graphics experiments based on projects from *Teach Your Kids to Code*. Each program creates a winding spiral using loops, movement, rotation, and different colour combinations.
 
-## Projects
+## 🖥️ Programs
 
 | File | Description |
 |---|---|
-| `WindingSpiral1.py` | Creates a winding spiral using progressively increasing forward distances and a 91° turn. |
-| `WindingSpiral2.py` | Creates the same winding spiral pattern, but adds a cornflower blue pen colour. |
+| `WindingSpiral1.py` | Creates a basic winding spiral using Turtle graphics. |
+| `WindingSpiral2.py` | Creates a winding spiral with a cornflower blue pen. |
+| `WindingSpiral3.py` | Creates a multicoloured winding spiral using four alternating colours. |
+| `WindingSpiral4.py` | Creates a multicoloured winding spiral against a black background. |
 
-## Concepts Learned
+## 🛠️ Concepts Used
 
-- **Turtle Graphics:** Using Python's `turtle` module to draw patterns.
-- **For Loops:** Repeating drawing instructions using `range(200)`.
-- **Movement:** Using `forward(x)` to increase the turtle's movement distance with each iteration.
-- **Angles:** Using `left(91)` to create a winding pattern.
-- **Custom Colours:** Using `pencolor("cornflowerblue")` to change the pen colour.
+- Python Turtle Graphics
+- `for` loops and `range()`
+- Turtle movement with `forward()`
+- Rotation with `left()`
+- Lists and indexing
+- Modulo operator (`%`)
+- Changing pen and background colours
 
-## How to Run
+## 🚀 How to Run
 
-1. Make sure Python is installed.
-2. Open the repository in your Python editor.
-3. Run either `WindingSpiral1.py` or `WindingSpiral2.py`.
-4. Watch the turtle draw the pattern!
+Make sure Python is installed, then run any of the files:
 
-## Key Differences
-
-Both projects use the same loop, forward movement and turning angle.
-
-The main difference is that `WindingSpiral2.py` includes:
-
-```python
-t.pencolor("cornflowerblue")
+```bash
+python WindingSpiral1.py
 ```
 
-This changes the turtle's drawing colour to cornflower blue while keeping the original spiral pattern.
+Replace the filename to try a different variation.
 
-## Experimentation
+## 🎨 Experimentation
 
-Try experimenting with different:
-- Pen colours using `t.pencolor()`
-- Turning angles using `t.left()`
-- Drawing speeds using `t.speed()`
-- Loop ranges to change the number of iterations
+All four programs use the same basic spiral algorithm, with changes to pen colour and background to create different visual effects.
 
-A small change in the code can create a noticeably different visual result!
+---
+
+**Course:** *Teach Your Kids to Code*  
+**Language:** Python
